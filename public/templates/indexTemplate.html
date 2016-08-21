@@ -1,0 +1,11 @@
+<section id="blog-post" class="container-fluid">
+	<div class="row">
+    	<div ng-repeat="blog in blogs">
+    		<div class="box-style">
+    			<h1><a href="/#/blogs/{{blog._id}}">{{blog.author}}</a></h1>
+				<h2>{{blog.title}}</h2>
+				<p><p>{{blog.body}}</p></p>
+    		</div>
+    	</div> 
+    </div>
+</section>
