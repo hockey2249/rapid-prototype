@@ -1,3 +1,8 @@
+.hero_image{
+  background: url('http://zllox.com/wp-content/uploads/2016/02/Amazing-White-Mountains.jpg') no-repeat;
+  padding-bottom: 150px;
+}
+
 body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -15,13 +20,14 @@ body {
 .higher-markets-header{
   text-align: center;
   color: white;
-  margin: 30px;
+  padding-top: 30px;
 }
 
 footer {
   bottom: 0;
   height: 100px;
   text-align: center;
+  margin-top: 30px;
   background: rgba(211,211,211,.6);
 
 }
